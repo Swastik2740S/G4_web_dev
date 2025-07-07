@@ -19,7 +19,7 @@ async function datalao() {
     console.log(data);
 }
 
-//fetch data from the url based and print only product names, desc, prices
+
 async function fetchAllProducts() {
     const response = await fetch('https://dummyjson.com/products');
     const data = await response.json();
