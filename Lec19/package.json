@@ -1,0 +1,16 @@
+{
+  "name": "lec19",
+  "version": "1.0.0",
+  "description": "express part-3",
+  "license": "MIT",
+  "author": "Swastik Verma",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "handlebars": "^4.7.8"
+  }
+}

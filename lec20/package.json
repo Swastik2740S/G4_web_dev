@@ -1,0 +1,18 @@
+{
+  "name": "lec20",
+  "version": "1.0.0",
+  "description": "selfmade crud app",
+  "license": "MIT",
+  "author": "swastik verma",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.17.0"
+  }
+}
