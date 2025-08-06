@@ -6,7 +6,7 @@ const userschema = new mongoose.Schema({
         required : true
     },
     rollno : {
-        type : Number,
+        type : String,
         required : true,
         unique : true
     },
@@ -15,6 +15,7 @@ const userschema = new mongoose.Schema({
         required : true,
         unique : true
     }
-})
+    
+},{timestamps: true})
 
 module.exports = mongoose.model('User',userschema);
